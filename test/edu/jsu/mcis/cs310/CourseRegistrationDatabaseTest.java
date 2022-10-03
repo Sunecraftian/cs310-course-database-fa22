@@ -218,6 +218,7 @@ public class CourseRegistrationDatabaseTest {
     public void testGetSections() {
         
         JSONArray r6 = (JSONArray)JSONValue.parse(s6);
+        System.out.println(r6.toString());
         JSONArray r7 = (JSONArray)JSONValue.parse(s7);
         JSONArray r8 = (JSONArray)JSONValue.parse(s8);
         JSONArray r9 = (JSONArray)JSONValue.parse(s9);
